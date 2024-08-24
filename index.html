@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">
+            <span>Samet</span> Büyükgülen
+        </a>
+        <nav class="navbar">
+            <a href="#home" class="active" onclick="setActive(this)">Portfolio</a>
+            <a href="#about-me" onclick="setActive(this)">About Me</a>
+            <a href="#my-skills" onclick="setActive(this)">My Skills</a>
+            <a href="#experiences" onclick="setActive(this)">Experiences</a>
+            <a href="#references" onclick="setActive(this)">References</a>
+            <a href="#contact" onclick="setActive(this)">Contact Me</a>
+        </nav>
+    </header>
+
+    <section class="home">
+        <div class="home-content">
+            <h3>Hi</h3>
+            <h1>I'm <span>Samet<br></span>Electrical-Electronic Engineer </h1>
+            <p>Hello! I’m Samet, a recent graduate engineer and technology enthusiast with an interest in industrial automation and technology.
+                Explore my site to learn more about my interests, skills, and me.</p>
+        </div>
+        <div class="img-box">
+            <img src="image.jpg" alt="">
+        </div>
+    </section>
+
+    <section id="about-me" class="about-me">
+        <h2 class="heading">About <span>Me</span></h2>
+        <div class="about-me-content">
+            <p>As a recent graduate from Karabük University, Electrical and Electronics Engineering (100% English) program,
+                I have a deep interest in industrial automation and technology.
+                During my university years, I participated in various projects and worked on software like Siemens TIA Portal.
+                My passion for technology and eagerness to learn constantly drive me to develop and improve in this field.
+                In my free time, I enjoy researching new technologies and working on personal projects.
+                My goal is to contribute to the industry with the knowledge and experience I have gained and to create innovative solutions.</p>
+        </div>
+    </section>
+
+    <section id="my-skills" class="skills">
+        <h2 class="heading">My <span>Skills</span></h2>
+        <div class="skills-content">
+            <div class="skill">
+                <h3>TIA Portal</h3>
+                <p>I have an intermediate level of knowledge in TIA Portal.
+                        Using this software, I have developed PLC programming and automation solutions for various projects.
+                        I am eager to continue learning and improving my skills in TIA Portal.</p>
+            </div>
+            <div class="skill">
+                    <h3>EPLAN</h3>
+                    <p>I have worked on several projects using EPLAN software.
+                        In these projects, I gained experience in designing electrical schematics and automation systems.
+                        I developed my skills in creating effective and organized schematics using EPLAN.</p>
+            </div>
+            <div class="skill">
+                    <h3>Proteus</h3>
+                    <p>During my university years, I used Proteus software for personal projects.
+                        Through this, I gained knowledge and experience in circuit design and simulation.
+                        Working with Proteus allowed me to apply my theoretical knowledge in practice.</p>
+            </div>
+            <div class="skill">
+                <h3>Web Development</h3>
+                <p>I created this website as a personal project to showcase my skills and interests.
+                    While I have a basic understanding of web development, including HTML, CSS, and some JavaScript, I am still learning and improving in this area.</p>
+            </div>
+            <div class="skill">
+                <h3>Python</h3>
+                <p>I have developed various projects using Raspberry Pi 4 and Python.
+                        In these projects,
+                        I utilized the hardware features of Raspberry Pi 4 and programmed with Python to create automation and data collection systems.
+                        Working with Python has enhanced my skills in developing integrated systems with Raspberry Pi.</p>
+            </div>
+            <div class="skill">
+                    <h3>Microsoft Office</h3>
+                    <p>I am proficient in Microsoft Office programs, with a particular strength in Microsoft Word.
+                        During my university years, I gained extensive experience in report writing and documentation.
+                        I am skilled in using Word’s advanced features to create professional and effective documents.</p>
+            </div>
+            <div class="skill">
+                    <h3>English Level</h3>
+                    <p>I have a B2 level proficiency in English.
+                        I have focused on improving my manual reading skills within the industrial sector and am enthusiastic and proficient in problem-solving,
+                        understanding, and communication on the field.</p>
+            </div>
+        </div>
+    </section>
+    <section id="experiences" class="experiences">
+        <h2 class="heading">My <br><span>Experiences</span></h2>
+        <div class="experiences-content">
+            <div class="experience">
+                <p>I am a prospective engineer with experience in automation systems and electrical engineering.
+                    Throughout my internships, I gained significant experience in both software and electrical fields.
+                    I developed my fundamental skills in the industry by gaining experience in panel materials, panel layout, and commissioning processes.
+                    I have basic knowledge of cable connections and project reading, and I am continuously working on improving myself in these areas.
+                    During my long-term internship, I worked at a company that served multiple firms, where I believe I acquired essential experience and skills.
+                    I made it a priority to be involved in and observe every phase of a project.
+                    These experiences have enhanced my knowledge in the field and motivated me to continue developing my skills further.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section id="references" class="references">
+        <h2 class="heading">Refe<span>rences</span></h2>
+        <div class="references-content">
+            <div class="reference">
+                <h3>Olcay Batuhan YAY</h3>
+                <p>WOWITECH AUTOMATION AND SOFTWARE TECHNOLOGIES LTD. ŞTİ. <br> <br>Phone: +90 536 550 56 71
+                </p>
+            </div>
+            <div class="reference">
+                <h3>Tuğrul ÇAKMAK</h3>
+                <p> TEBA AUTOMATION MACHINERY CONSTRUCTION INDUSTRY AND TRADE LTD. CO. <br>Phone: +90 532 577 50 30
+               
+                </p>
+            </div>
+            <div class="reference">
+                <h3>Abdullah Talha SÖZER</h3>
+                <p>Karabuk University, Dr. Abdullah Talha SÖZER, Faculty Member <br> <br>Phone: +90 544 463 73 55
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <div class="contact-content">
+            <div class="contact-info">
+                <h3>Contact Information</h3>
+                <ul>
+                    <li><strong>Phone:</strong> <span class="nowrap">+90 553 240 7802</span></li>
+                    <li><strong>Email:</strong> <span class="nowrap">bykglnsamet@gmail.com</span></li>
+                    <li><strong>Address 1:</strong> <span class="nowrap">İzmit, Kocaeli, Turkey</span></li>
+                    <li><strong>Address 2:</strong> <span class="nowrap">Polatlı, Ankara, Turkey</span></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    
+
+    <footer class="footer">
+        <div class="social">
+            <a href="https://www.linkedin.com/in/sametbykgln" target="_blank"><i class='bx bxl-linkedin-square'></i></a>
+            <a href="https://www.instagram.com/sametbykgln" target="_blank"><i class='bx bxl-instagram-alt'></i></a>
+        </div>
+        
+        <p class="copyright">© 2024 Samet | All Rights Reserved</p>
+    </footer>
+    
+</body>
+</html>
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    const navbarLinks = document.querySelectorAll('.navbar a');
+    const sections = document.querySelectorAll('section');
+    const headerHeight = document.querySelector('.header').offsetHeight;
+
+    function setActive(element) {
+        navbarLinks.forEach(link => {
+            link.classList.remove('active');
+        });
+        element.classList.add('active');
+    }
+
+    function scrollToSection(targetId) {
+        if (targetId === 'home') {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        } else {
+            const targetSection = document.getElementById(targetId);
+            if (targetSection) {
+                window.scrollTo({
+                    top: targetSection.offsetTop - headerHeight,
+                    behavior: 'smooth'
+                });
+            }
+        }
+    }
+
+    navbarLinks.forEach(link => {
+        link.addEventListener('click', (e) => {
+            e.preventDefault();
+            const targetId = link.getAttribute('href').substring(1);
+            scrollToSection(targetId);
+            setActive(link);
+        });
+    });
+
+    setActive(navbarLinks[0]);
+
+    window.addEventListener('scroll', () => {
+        let scrollPosition = document.documentElement.scrollTop || document.body.scrollTop;
+
+        sections.forEach(section => {
+            const sectionTop = section.offsetTop - headerHeight;
+            const sectionHeight = section.clientHeight;
+
+            if (scrollPosition >= sectionTop && scrollPosition < sectionTop + sectionHeight) {
+                const currentId = section.getAttribute('id');
+                navbarLinks.forEach(link => {
+                    link.classList.remove('active');
+                    if (link.getAttribute('href').substring(1) === currentId) {
+                        link.classList.add('active');
+                    }
+                });
+            }
+        });
+
+        // Check if we are at the bottom of the page and set the contact link active
+        if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
+            setActive(document.querySelector('a[href="#contact"]'));
+        }
+    });
+});
+
+
+</script>
